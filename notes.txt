@@ -1,0 +1,22 @@
+we install : pip3 install fastapi
+pip3 install uvicorn "[standared]"
+
+1: To start server use == uvicorn main:app --reload
+2: INFO: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+
+4: docs http://127.0.0.1:8000/docs#/
+5: create customer model 
+6: resource : http://127.0.0.1:8000/api/v1/customers to get all customers 
+
+#DOC SWAGGER DOCUMENTATION
+http://127.0.0.1:8000/docs#/default/create_customer_api_v1_customers_post
+
+#redoc 
+http://127.0.0.1:8000/redoc
+
+
+
+# @app.get("/customers")
+# def get_books():
+#     customers = db;
+#     return  customers    
